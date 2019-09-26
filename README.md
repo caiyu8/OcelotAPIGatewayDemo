@@ -37,13 +37,13 @@ As such, if a request arrives at the gateway, for example http://localhost:2000/
 ## Testing on local machine
 1) Run the ClientService and ProductService and verify that they work as expected: 
 
-![Image of endpoints test](testendpoints.gif)
+![Image of endpoints test](https://github.com/caiyu8/OcelotDemo/blob/master/TestEndpoints.gif)
 
 2) Run the gateway, and verify that the gateway routes incoming requests to the corresponding end points as defined in the configuration :
 - a request to http://localhost:2000/clients is forwarded to http://localhost:2001/api/clients
 - a request to http://localhost:2000/clients/123 is forwarded to  http://localhost:2001/api/clients/123
 - a request to http://localhost:2002/api/products is forwarded to http://localhost:2000/api/clients
 
-![Image of endpoints test](testgateway.gif)
+![Image of endpoints test](https://github.com/caiyu8/OcelotDemo/blob/master/TestGateway.gif)
 
 
